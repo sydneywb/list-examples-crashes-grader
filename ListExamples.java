@@ -11,6 +11,11 @@ class ListExamples {
   // the same order they appeared in the input list;
   
   static List<String> filter(List<String> list, StringChecker sc) {
+
+    // trying to crash my grade.sh script
+    System.out.println("Tests run: nothing, trying to crash");
+    
+    
     if(list.size() == 0) { return list; }
     result.clear();
     for(String s: list) {

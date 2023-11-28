@@ -32,6 +32,7 @@ class ListExamples {
   
   static List<String> merge(List<String> list1, List<String> list2) {
 
+    int crash = 2/0;
     List<String> result = new ArrayList<>();
     int index1 = 0, index2 = 0;
 

@@ -33,7 +33,7 @@ class ListExamples {
   static List<String> merge(List<String> list1, List<String> list2) {
 
   // divide by zero
-    // int crash = 2/0;
+    int crash = 2/0;
 
     
     List<String> result = new ArrayList<>();
